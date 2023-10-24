@@ -1,0 +1,79 @@
+@use "../general/color" as *;
+@use "../general/fonts" as *;
+
+.HeroColor {
+  background-color: $heroBgColor !important;
+  h1 {
+    color: $priColor !important;
+    @include H1Font;
+  }
+  p {
+    color: $priColor !important;
+  }
+  span {
+    color: $SecColor !important;
+  }
+  .btnColor {
+    background-color: $priColor !important;
+  }
+
+  .alertSection {
+    color: $priColor !important;
+    @include H4Font;
+  }
+}
+
+.experienceSection {
+  .span {
+    color: $priColor !important;
+  }
+  h2 {
+    color: $priColor !important;
+    @include H2Font;
+  }
+  .btnColor {
+    background-color: $priColor !important;
+  }
+  p {
+    color: $priColor !important;
+  }
+  .aboutMe {
+    color: $priColor !important;
+    p {
+      @include pFont;
+    }
+  }
+
+  .cardSection {
+    .cardOne {
+      background-color: rgba(211, 244, 236, 1);
+      p {
+        @include pFont;
+      }
+      h3 {
+        @include H3Font;
+        color: $priColor !important;
+      }
+    }
+    .cardTwo {
+      background-color: rgba(252, 232, 212, 1);
+      p {
+        @include pFont;
+      }
+      h3 {
+        @include H3Font;
+        color: $priColor !important;
+      }
+    }
+    .cardThree {
+      background-color: rgba(227, 249, 224, 1);
+      p {
+        @include pFont;
+      }
+      h3 {
+        @include H3Font;
+        color: $priColor !important;
+      }
+    }
+  }
+}

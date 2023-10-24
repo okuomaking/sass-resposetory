@@ -1,0 +1,34 @@
+@use"../general/color" as *;
+@use"../general/font" as *;
+@use"../component/btn" as *;
+
+.heroColor{
+    background-color: $SecColor !important; 
+}
+h1 {
+    color: $priColor !important;
+    @include H1Font;
+  }
+
+  p {
+    color: $priColor !important;
+    @include pFont;
+  }
+
+  .btnColor{
+    background-color: $priColor !important;
+
+  }
+
+  .herocolor-2{
+    background-color: $SecColor !important;
+  }
+  h2{
+    color: $heroBgColor !important;
+    @include H2Font;
+  }
+
+  p{
+    color: $priColor !important;
+    @include pFont;
+  }

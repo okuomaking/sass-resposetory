@@ -1,0 +1,14 @@
+@use "../general/color" as *;
+@use "../general/fonts" as *;
+
+.projectSection {
+  background-color: $heroBgColor !important;
+
+  p {
+    color: $priColor !important;
+  }
+  h3 {
+    @include H3Font;
+    color: $priColor !important;
+  }
+}

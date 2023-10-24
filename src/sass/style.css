@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.heroColor {
+  background-color: rgb(165, 166, 255) !important;
+}
+
+h1 {
+  color: rgb(19, 15, 73) !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem !important;
+}
+
+p {
+  color: rgb(19, 15, 73) !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 1.5rem;
+  letter-spacing: 0rem;
+}
+
+.btnColor {
+  background-color: rgb(19, 15, 73) !important;
+}
+
+.herocolor-2 {
+  background-color: rgb(165, 166, 255) !important;
+}
+
+h2 {
+  color: rgb(239, 251, 248) !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem !important;
+}
+
+p {
+  color: rgb(19, 15, 73) !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 1.5rem;
+  letter-spacing: 0rem;
+}
+/*# sourceMappingURL=style.css.map */
